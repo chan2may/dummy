@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Gender</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width = device-width, initial-scale=1.0 ">
+
+    <link rel="stylesheet" href="gender.css">
+    <link rel="stylesheet" href="homepage.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="myntra.png" width="100" height="50">
+            <ul>
+                
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">KIDS</a></li>
+                <li><a href="#">HOME & LIVING</a></li>
+                <li><a href="#">BEAUTY</a></li>
+                <li><a href="category.html">GAME</a></li>
+
+                <li class="search">
+                    <input id="search" type="search" placeholder=" &nbsp&nbsp Search for products brands and more">
+                    <span class="fa fa-search"></span>
+                      
+               
+                </li>
+                <li class="profile"><a href="#">
+                    
+                        <img src="profile.png" width="80" height="50"></a>
+                    <img src="wishlist.png" width="80" height="50"></a>
+                    <img src="bag.png" width="80" height="50"></a>
+
+                   
+                    </li>
+                </li>
+            </ul>
+        </nav>
+      </header>
+    <div  class="container">
+    </div>
+<h1>Select your gender</h1>
+   
+
+<!--clickable images: on clicking redirects to quiz page-->
+
+       <a href="quiz.html" onclick="male()"> <img class="male" src="male.png" alt="Male" height="400px" width="400px"></a> 
+    
+       <a href="quiz.html" onclick="female()"> <img class="female" src="female.png" alt="Female" height="400px" width="400px"></a>
+    
+    
+    <script>
+        let m=0,f=0;
+
+        function male(){
+         m++;
+        }
+
+        function female(){
+         f++;
+        }
+    </script>
+
+</body>
+
+</html>
+
+
